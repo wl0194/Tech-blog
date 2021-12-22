@@ -8,20 +8,25 @@
     <link rel="stylesheet" href="/css/style.css" />
 </head>
 
-<body>
-    <nav>
-        <a href="/">Home</a>
+<body class="flex-column min-100-vh">
+    <nav class="navbar">
+        <ul class="flex-row">
+        <li class="li-inline nav-item"><a href="/">Home</a></li>
         {{#if loggedIn}}
-        <button id="logout" class="btn-no-style">Logout</button>
+        <li class="li-inline nav-item"><a href="/dashboard">Dashboard</a></li>
         {{else}}
-        <a href="/login">Login</a>
-        <a href="/signup">Sign Up</a>
+        <li class="li-inline nav-item"><a href="/login">Login</a></li>
+        <li class="li-inline nav-item"><a href="/signup">Sign Up</a></li>
         {{/if}}
+        </ul>
     </nav>
-    <main>
-        <div class="blog">
+    <header class="hero">
+        <h1 class="app-title"><a href=<"/">Tech Blog</h1>
+    </header>
+    <main class="col-auto">
+        
             {{{body}}}
-        </div>
+        
     </main>
     {{#if loggedIn}}
   <script src="/js/logout.js"></script>
