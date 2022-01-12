@@ -8,6 +8,7 @@ Node.js, npm and Mysql must be installed to use this application.
 
 ## Demo
 View application [here](https://evening-river-10388.herokuapp.com/)
+![tech-blog](./assets/screenshot.png)
 
 ## Links
 * [Github](https://github.com/wl0194)
