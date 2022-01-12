@@ -29,4 +29,4 @@ Node.js, npm and Mysql must be installed to use this application.
 ## License
 
 Copyright (c) Amy Hwang. All rights reserved.
-Licensed under the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT).
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT).
