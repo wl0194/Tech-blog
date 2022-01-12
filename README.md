@@ -6,14 +6,25 @@ This is an app that is CMS-style blog site similar to a Wordpress site, where de
 ## Installation
 Node.js, npm and Mysql must be installed to use this application.
 
-## Demo
-View application [here](https://evening-river-10388.herokuapp.com/)
-![](./assets/screenshot.png)
+## Usage
 
-## Links
-* [Github](https://github.com/wl0194)
+* To start using the application, open your browser and go to
+  
+  `http://localhost:3000/`
 
+* Demo of application
 
+  ![Tech Blog Demo](assets/screenshot.png)
+
+* Websites
+  * [Github](https://github.com/wl0194)
+  * [Live Heroku App](https://evening-river-10388.herokuapp.com/)
+
+## Features
+
+* JavaScript
+* Node.js
+* Express
 
 ## License
 
